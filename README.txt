@@ -1,0 +1,36 @@
+File Structure:
+  |-- hw1_report.pdf
+  |-- lena.bmp
+  |-- lena_std_short.bmp
+  |-- gaussian_sw
+  |   |-- Makefile
+  |   |-- gaussian.cpp
+  |-- guassian_sc
+  |   |-- CMakeLists.txt
+  |   |-- main.cpp
+  |   |-- Testbench.h
+  |   |-- Testbench.cpp
+  |   |-- GaussFilter.h
+  |   |-- GaussFilter.cpp
+  |   |-- filter_def.h
+ 
+How to run?
+1. software: (use lena.bmp as input image)
+   1.1 change directory to gaussian_sw, type "cd gaussian_sw"
+   1.2 type "make".
+   1.3 type "./gaussian".
+   1.4 you will get output image "lena_gaussian_sw.bmp".
+2. SystemC: (use lena_std_short.bmp as input image)
+   2.1 change directory to gaussian_sw, type "cd gaussian_sc"
+   2.2 build new directory, type "mkdir build".
+   2.3 change directory to build, type "cd build"
+   2.3 type "cmake ..".
+   2.3 type "make run".
+   2.4 you will get output image "out.bmp".
+
+
+
+
+
+
+
