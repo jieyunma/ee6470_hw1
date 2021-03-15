@@ -1,4 +1,6 @@
 File Structure:
+  |-- report.md
+  |-- README.txt
   |-- hw1_report.pdf
   |-- lena.bmp
   |-- lena_std_short.bmp
