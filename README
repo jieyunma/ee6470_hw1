@@ -1,22 +1,23 @@
 In master branch.
 
 File Structure:
-  |-- report.md
-  |-- README
-  |-- hw1_report.pdf
-  |-- lena.bmp
-  |-- lena_std_short.bmp
-  |-- gaussian_sw
-  |   |-- Makefile
-  |   |-- gaussian.cpp
-  |-- guassian_sc
-  |   |-- CMakeLists.txt
-  |   |-- main.cpp
-  |   |-- Testbench.h
-  |   |-- Testbench.cpp
-  |   |-- GaussFilter.h
-  |   |-- GaussFilter.cpp
-  |   |-- filter_def.h
+  |-- ee6470_hw1
+  |   |-- report.md
+  |   |-- README
+  |   |-- hw1_report.pdf
+  |   |-- lena.bmp
+  |   |-- lena_std_short.bmp
+  |   |-- gaussian_sw
+  |   |   |-- Makefile
+  |   |   |-- gaussian.cpp
+  |   |-- guassian_sc
+  |   |   |-- CMakeLists.txt
+  |   |   |-- main.cpp
+  |   |   |-- Testbench.h
+  |   |   |-- Testbench.cpp
+  |   |   |-- GaussFilter.h
+  |   |   |-- GaussFilter.cpp
+  |   |   |-- filter_def.h
  
 How to run?
 1. software: (use lena.bmp as input image)
